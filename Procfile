@@ -1,1 +1,1 @@
-WSGI_APPLICATION = 'campgo-sei-69.wsgi.application'
+web: gunicorn campgo-sei-69.wsgi

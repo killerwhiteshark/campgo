@@ -14,7 +14,7 @@ import os
 import environ
 environ.Env()
 environ.Env.read_env()
-
+WSGI_APPLICATION = 'campgo-sei-69.wsgi.application'
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -25,7 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-SECRET_KEY = "fy7pk0+aq4&92=p#48g$t(vcky#qm%0%w#@205pa$cs5mejv04"
+SECRET_KEY = "fy7pk0+aq4&92=p#48g$t(vcky#qm%0w#@205pa$cs5mejv04"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
